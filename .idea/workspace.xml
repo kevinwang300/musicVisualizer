@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df4e9969-31d9-4cb3-be79-a10747ab3b49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/musicVisualizer/MusVisPack/MusicVisualizer.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusVisPack/MusicVisualizer.java" afterPath="$PROJECT_DIR$/MusVisPack/MusicVisualizer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusVisPack/SquareSpiral.java" afterPath="$PROJECT_DIR$/MusVisPack/SquareSpiral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MusVisPack/Turtle.java" afterPath="$PROJECT_DIR$/MusVisPack/Turtle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="MusicVisualizer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MusVisPack/MusicVisualizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="96" column="106" lean-forward="false" selection-start-line="96" selection-start-column="106" selection-end-line="96" selection-end-column="106" />
+            <state relative-caret-position="188">
+              <caret line="53" column="40" lean-forward="false" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,21 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareSpiral.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MusVisPack/SquareSpiral.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Turtle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusVisPack/Turtle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="95">
+              <caret line="58" column="2" lean-forward="false" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -59,8 +44,8 @@
       <file leaf-file-name="StdDraw.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MusVisPack/StdDraw.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
-              <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="34" />
+            <state relative-caret-position="207">
+              <caret line="151" column="40" lean-forward="false" selection-start-line="151" selection-start-column="40" selection-end-line="151" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -70,8 +55,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>update</find>
       <find>ran</find>
+      <find>back</find>
+      <find>update</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,8 +71,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MusVisPack/SquareSpiral.java" />
-        <option value="$PROJECT_DIR$/MusVisPack/Turtle.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/signals/PulseWave.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/signals/SawWave.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/signals/SineWave.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/signals/SquareWave.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/signals/TriangleWave.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/signals/WhiteNoise.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioOut.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioRecording.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioRecordingStream.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioResource.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioStream.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/MinimServiceProvider.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/SampleRecorder.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Abs.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/ADSR.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Balance.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/BitCrush.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Bypass.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Constant.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Damp.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/DefaultInstrument.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Delay.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/EnvelopeFollower.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/FilePlayer.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Flanger.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Frequency.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Gain.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/GranulateRandom.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/GranulateSteady.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Instrument.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Line.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/LiveInput.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Midi2Hz.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/MoogFilter.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Multiplier.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Noise.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Oscil.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Pan.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Reciprocal.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Sampler.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Sink.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Summer.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/TickRate.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Vocoder.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Waveform.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Waves.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/WaveShaper.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Wavetable.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/WavetableGenerator.java" />
+        <option value="$PROJECT_DIR$/MusVisPack/TarsosDSP/src/tests/be/tarsos/dsp/test/TestUtilities.java" />
         <option value="$PROJECT_DIR$/MusVisPack/MusicVisualizer.java" />
       </list>
     </option>
@@ -149,6 +183,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="MusVisPack.Minim.src.ddf.minim" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MusicVisualizer">
     <configuration default="false" name="MusicVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -421,18 +464,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Style Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -468,34 +511,410 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MusVisPack/SquareSpiral.java">
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioRecording.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioRecordingStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/AudioStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/MinimServiceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/spi/SampleRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Abs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/ADSR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/BitCrush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Bypass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Damp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/DefaultInstrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Delay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/EnvelopeFollower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/FilePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Flanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2730">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Frequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Gain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/GranulateRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/GranulateSteady.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/LiveInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Midi2Hz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/MoogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Multiplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Noise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Oscil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Pan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Reciprocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Sampler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Sink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Summer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/TickRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Vocoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Waveform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Waves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/WaveShaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/Wavetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/ugens/WavetableGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/effects/BandPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/Minim/src/ddf/minim/effects/ChebFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3730">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/TarsosDSP/src/android/be/tarsos/dsp/io/android/AndroidAudioInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MusVisPack/TarsosDSP/src/tests/be/tarsos/dsp/test/TestUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TarsosDSP/src/android/be/tarsos/dsp/io/android/AndroidAudioInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusVisPack/Turtle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MusVisPack/StdDraw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="34" />
+        <state relative-caret-position="95">
+          <caret line="58" column="2" lean-forward="false" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MusVisPack/MusicVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="96" column="106" lean-forward="false" selection-start-line="96" selection-start-column="106" selection-end-line="96" selection-end-column="106" />
+        <state relative-caret-position="188">
+          <caret line="53" column="40" lean-forward="false" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

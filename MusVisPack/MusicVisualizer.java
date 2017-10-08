@@ -3,6 +3,7 @@ package MusVisPack;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
@@ -27,6 +28,10 @@ public class MusicVisualizer implements LineListener {
     void play(String audioFilePath) {
         File audioFile = new File(audioFilePath);
         int counter = 1;
+        System.out.println("Enter the beats per minute: ");
+        Scanner scanner = new Scanner(System.in);
+        int bpm = scanner.nextInt();
+
 
         try {
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(audioFile);
@@ -40,22 +45,44 @@ public class MusicVisualizer implements LineListener {
             audioClip.addLineListener(this);
 
             audioClip.open(audioStream);
-
+            StdDraw.setCanvasSize(720, 720);
+            StdDraw.clear(StdDraw.BLACK);
             audioClip.start();
-
             while (!playCompleted) {
                 // wait for the playback completes
                 try {
-                    Thread.sleep(10);
+                    Thread.sleep(1000 / bpm);
                     int loopLength = 50;
+                    int clearCount = 200;
                     visualizer.goForward((counter % loopLength) * 0.01);
-                    visualizer.turnLeft(90.25 - ((counter / 50)));
+                    visualizer.turnLeft(90.25);
                     counter++;
-                    if ((counter % 50) == 0) {
-                        visualizer.x = 0.5;
-                        visualizer.y = 0.5;
-                        visualizer.angle = 0.0;
+                    if ((counter % clearCount) == 0) {
+                        visualizer.x = 0.75;
+                        visualizer.y = 0.75;
+                        visualizer.angle = 5 * (counter / loopLength);
                         visualizer.setPenColor(Color.getHSBColor((float) Math.random(), .8f, .8f));
+                    }
+                    if ((counter % clearCount) == loopLength) {
+                        visualizer.x = 0.25;
+                        visualizer.y = 0.75;
+                        visualizer.angle = 5 * (counter / loopLength);
+                        visualizer.setPenColor(Color.getHSBColor((float) Math.random(), .8f, .8f));
+                    }
+                    if ((counter % clearCount) == 2 * loopLength) {
+                        visualizer.x = 0.25;
+                        visualizer.y = 0.25;
+                        visualizer.angle = 5 * (counter / loopLength);
+                        visualizer.setPenColor(Color.getHSBColor((float) Math.random(), .8f, .8f));
+                    }
+                    if ((counter % clearCount) == 3 * loopLength) {
+                        visualizer.x = 0.75;
+                        visualizer.y = 0.25;
+                        visualizer.angle = 5 * (counter / loopLength);
+                        visualizer.setPenColor(Color.getHSBColor((float) Math.random(), .8f, .8f));
+                    }
+                    if ((counter % clearCount) == 0) {
+                        StdDraw.clear(StdDraw.BLACK);
                     }
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
@@ -94,8 +121,12 @@ public class MusicVisualizer implements LineListener {
     }
 
     public static void main(String[] args) {
+        System.out.println("Enter an audio file path:");
+        Scanner scanner = new Scanner(System.in);
+        String username = scanner.nextLine();
+        //System.out.println("Your username is " + username);
         String audioFilePath = "/Users/dangdang98/calHacks2017/musicVisualizer/MusVisPack/1-06 Redbone.wav";
         MusicVisualizer player = new MusicVisualizer();
-        player.play(audioFilePath);
+        player.play(username);
     }
 }
