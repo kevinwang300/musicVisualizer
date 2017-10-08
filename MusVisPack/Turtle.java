@@ -2,9 +2,9 @@ package MusVisPack;
 import java.awt.Color;
 
 public class Turtle {
-    private double x;
-    private double y;
-    private double angle;
+    public double x;
+    public double y;
+    public double angle;
 
     public Turtle(double x0, double y0, double a0) {
         this.x = x0;

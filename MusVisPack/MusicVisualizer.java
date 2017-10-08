@@ -1,22 +1,6 @@
-//import java.io.ByteArrayOutputStream;
-//import java.io.IOException;
-//import javax.sound.sampled.AudioFormat;
-//import javax.sound.sampled.AudioInputStream;
-//import javax.sound.sampled.AudioSystem;
-//import javax.sound.sampled.DataLine;
-//import javax.sound.sampled.LineUnavailableException;
-//import javax.sound.sampled.Mixer;
-//import javax.sound.sampled.SourceDataLine;
-//import javax.sound.sampled.TargetDataLine;
-//
-//
-//
-//import javax.sound.sampled.AudioInputStream;
-//import javax.sound.sampled.AudioSystem;
-//import javax.sound.sampled.Clip;
-
 package MusVisPack;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
@@ -31,86 +15,18 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
 public class MusicVisualizer implements LineListener {
-//
-//    static boolean stopped = false;
-//
-//    public static void main(String[] args) {
-//        TargetDataLine line;
-//        AudioFormat format = new AudioFormat(50, 10, 1, false, false);
-//        System.out.print("asdf");
-//        DataLine.Info info = new DataLine.Info(TargetDataLine.class, format); // format is an AudioFormat object
-//        if (!AudioSystem.isLineSupported(info)) {
-//          // Handle the error ...
-//            System.out.println("unsupported type!");
-//        }
-//        // Obtain and open the line.
-//        try {
-//          line = (TargetDataLine) AudioSystem.getLine(info);
-//          line.open(format);
-//            // Assume that the TargetDataLine, line, has already
-//            // been obtained and opened.
-//            ByteArrayOutputStream out  = new ByteArrayOutputStream();
-//            int numBytesRead;
-//            byte[] data = new byte[line.getBufferSize() / 5];
-//
-//            // Begin audio capture.
-//            line.start();
-//
-//            // Here, stopped is a global boolean set by another thread.
-//            while (!stopped) {
-//                // Read the next chunk of data from the TargetDataLine.
-//                numBytesRead =  line.read(data, 0, data.length);
-//                // Save this chunk of data.
-//                out.write(data, 0, numBytesRead);
-//            }
-//        } catch (LineUnavailableException ex) {
-//            // Handle the error ...
-//            System.out.println("file didn't work");
-//        }
-//    }
-
-//    public Clip loadClip(String filename) {
-//        Clip in = null;
-//
-//        try {
-//            System.out.println("trying");
-//            AudioInputStream audioIn = AudioSystem.getAudioInputStream(getClass().getResource(filename));
-//            System.out.println("success!");
-//            in = AudioSystem.getClip();
-//            in.open(audioIn);
-//        } catch (Exception e) {
-//            System.out.println("Your audio file doesn't exist!");
-//            //e.printStackTrace();
-//        }
-//
-//        return in;
-//    }
-//
-//    public void playClip(Clip clip) {
-//        if (clip.isRunning()) {
-//            clip.stop();
-//        }
-//        clip.setFramePosition(0);
-//        clip.start();
-//    }
-//
-//
-//    public static void main(String[] args) {
-//        MusicVisualizer mv = new MusicVisualizer();
-//        Clip sound = mv.loadClip("/Kurzweil-K2000-Grand-Strings-C3.wav");
-//        mv.playClip(sound);
-//    }
     /**
      * this flag indicates whether the playback completes or not.
      */
     boolean playCompleted;
-
+    Turtle visualizer = new Turtle(0.5, 0.5, 0);
     /**
      * Play a given audio file.
      * @param audioFilePath Path of the audio file.
      */
     void play(String audioFilePath) {
         File audioFile = new File(audioFilePath);
+        int counter = 1;
 
         try {
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(audioFile);
@@ -130,7 +46,17 @@ public class MusicVisualizer implements LineListener {
             while (!playCompleted) {
                 // wait for the playback completes
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(10);
+                    int loopLength = 50;
+                    visualizer.goForward((counter % loopLength) * 0.01);
+                    visualizer.turnLeft(90.25 - ((counter / 50)));
+                    counter++;
+                    if ((counter % 50) == 0) {
+                        visualizer.x = 0.5;
+                        visualizer.y = 0.5;
+                        visualizer.angle = 0.0;
+                        visualizer.setPenColor(Color.getHSBColor((float) Math.random(), .8f, .8f));
+                    }
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
@@ -157,7 +83,6 @@ public class MusicVisualizer implements LineListener {
     @Override
     public void update(LineEvent event) {
         LineEvent.Type type = event.getType();
-
         if (type == LineEvent.Type.START) {
             System.out.println("Playback started.");
 
@@ -169,7 +94,7 @@ public class MusicVisualizer implements LineListener {
     }
 
     public static void main(String[] args) {
-        String audioFilePath = "/Users/ryanleung/calHacks2017/musicVisualizer/MusVisPack/Kurzweil-K2000-Grand-Strings-C3.wav";
+        String audioFilePath = "/Users/dangdang98/calHacks2017/musicVisualizer/MusVisPack/1-06 Redbone.wav";
         MusicVisualizer player = new MusicVisualizer();
         player.play(audioFilePath);
     }
