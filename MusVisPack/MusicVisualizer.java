@@ -15,7 +15,7 @@
 //import javax.sound.sampled.AudioSystem;
 //import javax.sound.sampled.Clip;
 
-package net.codejava.sound;
+package MusVisPack;
 
 import java.io.File;
 import java.io.IOException;
@@ -169,7 +169,7 @@ public class MusicVisualizer implements LineListener {
     }
 
     public static void main(String[] args) {
-        String audioFilePath = "/Users/dangdang98/calHacks2017/Kurzweil-K2000-Grand-Strings-C3.wav";
+        String audioFilePath = "/Users/ryanleung/calHacks2017/musicVisualizer/MusVisPack/Kurzweil-K2000-Grand-Strings-C3.wav";
         MusicVisualizer player = new MusicVisualizer();
         player.play(audioFilePath);
     }
