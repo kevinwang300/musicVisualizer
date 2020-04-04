@@ -63,10 +63,10 @@ public class MusicVisualizer implements LineListener {
                 // wait for the playback completes
                 try {
                     Thread.sleep(1000 / bpm);
-                    double loopLength = 150;
+                    double loopLength = 200;
                     double clearCount = 8 * loopLength;
                     double circleAngle = 360;
-                    if (newColor == backgroundColor) {
+                    while (newColor == backgroundColor) {
                         newColor = Color.getHSBColor((float) Math.random(), .8f, .8f);
                     }
                     visualizer.goForward((counter % loopLength) * 0.01);
@@ -76,8 +76,9 @@ public class MusicVisualizer implements LineListener {
                         visualizer.x = 0.5;
                         visualizer.y = 0.5;
                         //visualizer.angle = (circleAngle / 8) * (counter / loopLength);
-                        visualizer.angle = (angle * loopLength) % circleAngle + (circleAngle / 8) * (counter % 8);
-                        //System.out.println(visualizer.angle);
+                        visualizer.angle = (angle * loopLength) % circleAngle + (circleAngle / 8) * (counter / loopLength);
+                        System.out.println((angle * loopLength) % circleAngle);
+                        System.out.println((counter));
                         newColor = Color.getHSBColor((float) Math.random(), .8f, .8f);
                         visualizer.setPenColor(newColor);
                     }
